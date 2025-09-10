@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import Navbar from './components/Navbar.jsx';
 import Footer from './components/Footer.jsx';
 import Home from './pages/Home.jsx';
@@ -16,6 +16,8 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/faq" element={<FAQ />} />
           <Route path="/contact" element={<Contact />} />
+          {/* Redirect any unknown route to Home */}
+          <Route path="*" element={<Navigate to="/" />} />
         </Routes>
       </div>
       <Footer />
