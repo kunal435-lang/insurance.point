@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import faqBanner from "../images/faq-banner.png";
 import faqImg from "../images/faq.png";
+import "./FAQ.css";
 
 
 const FAQ = () => {

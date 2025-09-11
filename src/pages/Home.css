@@ -1,0 +1,111 @@
+/* Home.css */
+.home-container {
+  padding: 3rem 2rem;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(to bottom, #ffffff, #f9fafb);
+  color: #374151;
+  line-height: 1.7;
+}
+
+/* Titles */
+.home-title {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  letter-spacing: -0.5px;
+  color: #1e40af; /* Dark Blue */
+}
+
+/* About Section */
+.about-container {
+  background: #ffffff;
+  padding: 2.5rem;
+  border-radius: 1.5rem;
+  margin-bottom: 3rem;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease-in-out;
+}
+
+.about-container:hover {
+  box-shadow: 0 6px 25px rgba(37, 99, 235, 0.15);
+}
+
+.about-content p {
+  margin-bottom: 1rem;
+  font-size: 1.05rem;
+  color: #374151;
+}
+
+.highlight {
+  color: #2563eb;
+  font-weight: 600;
+  margin-top: 1.2rem;
+}
+
+/* Why Choose Us Section */
+.why-container {
+  background: #ffffff;
+  padding: 2.5rem;
+  border-radius: 1.5rem;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease-in-out;
+}
+
+.why-container:hover {
+  box-shadow: 0 6px 25px rgba(30, 64, 175, 0.15);
+}
+
+.why-intro {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  color: #4b5563;
+}
+
+.highlight-blue {
+  color: #2563eb;
+  font-weight: 600;
+}
+
+/* Why List */
+.why-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.why-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.8rem;
+  padding: 1.2rem;
+  background: #eff6ff; /* Light Blue background */
+  border-left: 5px solid #2563eb;
+  border-radius: 1rem;
+  font-size: 1rem;
+  color: #1e3a8a;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.04);
+  transition: all 0.3s ease-in-out;
+}
+
+.why-item:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 20px rgba(37, 99, 235, 0.15);
+}
+
+.icon {
+  color: #2563eb;
+  font-size: 1.4rem;
+  flex-shrink: 0;
+}
+
+.why-footer {
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #2563eb;
+}
